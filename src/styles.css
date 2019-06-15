@@ -13,20 +13,36 @@ body {
   margin-bottom: 100px;
 }
 
+/* トップ部分スタイリング */
+#topContent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* 色分け */
+
 section:nth-child(2n) {
   background: #edf5fc;
 }
 
-#topIcon {
-  width: 20%;
-  height: 20%;
-}
 
-h1 {
-  float: right;
-}
+/* スマホ用スタイルここから */
 
 @media (max-width: 720px) {
+
+  #topIconImg {
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    margin-right: 10px;
+    flex-shrink: 5;
+  }
+  
+
+  
+
+
   .spnav {
     position: fixed;
     display: flex;
