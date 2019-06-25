@@ -131,9 +131,8 @@ body {
     
   } */
 
-  .worksthumbnail img{
-    width: 10px;
-    height: 10px;
+  .worksthumbnail{
+    max-width: 50%;
   }
 
   nav {
