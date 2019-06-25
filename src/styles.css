@@ -23,6 +23,16 @@ body {
   box-shadow: 0 2px 5px #00000042;
 }
 
+#main-container section a{
+  text-decoration: none;
+}
+
+#main-container section a:hover,
+#main-container section a:focus,
+#main-container section a:active{
+  color:#10df33;
+}
+
 #main-container section:nth-child(2n) {
   background: #edf5fc;
 }
@@ -30,6 +40,9 @@ body {
 #main-container section:nth-child(2n + 1) {
   background: #a3d4ff;
 }
+
+
+
 
 /* トップ部分スタイリング */
 #topContent {
@@ -112,6 +125,15 @@ body {
     height: 120px;
     border-radius: 20px;
     margin-right: 10px;
+  }
+
+  /* .worksthumbnail{
+    
+  } */
+
+  .worksthumbnail img{
+    width: 10px;
+    height: 10px;
   }
 
   nav {
