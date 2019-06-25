@@ -1,3 +1,4 @@
+/* 共通スタイル */
 body {
   font-family: sans-serif;
   width: auto;
@@ -23,14 +24,14 @@ body {
   box-shadow: 0 2px 5px #00000042;
 }
 
-#main-container section a{
+#main-container section a {
   text-decoration: none;
 }
 
 #main-container section a:hover,
 #main-container section a:focus,
-#main-container section a:active{
-  color:#10df33;
+#main-container section a:active {
+  color: #10df33;
 }
 
 #main-container section:nth-child(2n) {
@@ -41,7 +42,22 @@ body {
   background: #a3d4ff;
 }
 
+#main-container section {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #00000042;
+}
 
+.worksthumbnail a img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px #00000042;
+}
+
+.worksthumbnail img:hover{
+  opacity: 0.5;
+}
 
 
 /* トップ部分スタイリング */
@@ -116,6 +132,11 @@ body {
     font-size: 12px;
     line-height: 2;
   }
+
+  .worksthumbnail a img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* PC用スタイル */
@@ -127,13 +148,6 @@ body {
     margin-right: 10px;
   }
 
-  /* .worksthumbnail{
-    
-  } */
-
-  .worksthumbnail{
-    max-width: 50%;
-  }
 
   nav {
     display: flex;
