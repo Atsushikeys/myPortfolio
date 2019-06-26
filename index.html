@@ -35,11 +35,6 @@
                 ><i class="fas fa-hammer"></i><span>works</span></a
               >
             </li>
-            <!-- <li>
-              <a href="#sns"
-                ><i class="far fa-thumbs-up"></i><span>sns</span></a
-              >
-            </li> -->
             <li>
               <a href="#contact"
                 ><i class="far fa-paper-plane"></i><span>contact</span></a
@@ -49,74 +44,152 @@
         </nav>
       </header>
 
-      <section>
-        <h2 id="profile">Profile</h2>
+      <section id="profile">
+        <h2>Profile</h2>
         <ul>
           <li>名前: Atsushi Satoh</li>
           <li>出身: 愛知県知立市</li>
           <li>出身校: 名古屋大学工学部</li>
-          <li>活動: 不動産営業=&gt;組み込みソフトウェア開発会社でPGとして勤務。</li>
-          <li>趣味: 音楽活動</li>
+          <li>
+            活動:
+            不動産営業=&gt;組み込みソフトウェア開発会社でプログラマーとして勤務。
+          </li>
+          <li>趣味: 楽器演奏(ピアノ、ギター、ドラム)</li>
         </ul>
       </section>
 
-      <section>
-        <h2 id="skills">skills</h2>
-        <table >
+      <section id="skills">
+        <h2>Skills</h2>
+        <h3>プログラミング言語</h3>
+        <table>
           <tr>
             <th>スキル</th>
             <th>経験年数</th>
-            <th>業務内容</th>
+            <th>レベル</th>
           </tr>
           <tr>
-            <td>C++</td>
+            <td>C, C++</td>
             <td>1年</td>
             <td>ぱちんこ遊技機の液晶表示制御プログラムの作成・テスト</td>
           </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>1年</td>
+            <td>GASによる業務支援マクロの作成。ES6(ES2015)対応</td>
+          </tr>
+          <tr>
+            <td>PowerShell</td>
+            <td>6ヶ月</td>
+            <td>業務支援の為の簡単なスクリプトが作成可能</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>1年</td>
+            <td>簡単なプログラミングが可能</td>
+          </tr>
+        </table>
+
+        <hr />
+        <h3>フレームワーク</h3>
+        <table>
+          <tr>
+            <th>スキル</th>
+            <th>経験年数</th>
+            <th>レベル</th>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>6ヶ月</td>
+            <td>CRUDアプリケーションの開発が可能</td>
+          </tr>
+        </table>
+
+        <hr />
+        <h3>バージョン管理システム</h3>
+        <table>
+          <tr>
+            <th>スキル</th>
+            <th>経験年数</th>
+            <th>レベル</th>
+          </tr>
+          <tr>
+            <td>SVN</td>
+            <td>1年</td>
+            <td>多人数の開発におけるバージョン管理</td>
+          </tr>
+          <tr>
+            <td>Git</td>
+            <td>6ヶ月</td>
+            <td>単独での開発におけるバージョン管理</td>
+          </tr>
         </table>
       </section>
-      
-      <section>
-        <h2 id="works">Works</h2>
+
+      <section id="works">
+        <h2>Works</h2>
         <p>個人で作成したアプリケーションを載せております。</p>
-        <div class="worksthumbnail">
+        <div class="worksThumbnail">
           <h3>React・Reduxを用いたCRUDアプリケーション開発</h3>
-          <a href='https://atsushikeys-react-crud.herokuapp.com/'>
-            <img src='img/reactThumbnail.png' alt='React・Reduxを用いたCRUDアプリケーション開発'>
+          <a href="https://atsushikeys-react-crud.herokuapp.com/">
+            <img
+              src="img/reactThumbnail.png"
+              alt="React・Reduxを用いたCRUDアプリケーション開発"
+            />
           </a>
-          <p><a href='https://github.com/Atsushikeys/udemy-react-redux-crud-application/tree/events-show'>GitHubはこちら</a></p>
+          <p>
+            <a
+              href="https://github.com/Atsushikeys/udemy-react-redux-crud-application/tree/events-show"
+              >GitHubはこちら</a
+            >
+          </p>
           <p>使用した技術: JavaScript, React, Redux</p>
         </div>
-        
+        <hr />
+        <div class="worksThumbnail">
+          <h3>JavaScript, Reactを用いたストップウォッチアプリの作成</h3>
+          <a href="https://codepen.io/atsushikeys/pen/VOXvxJ"
+            ><img
+              src="img/stopwatchThumbnail.png"
+              alt="JavaScript, Reactを用いたストップウォッチアプリの作成"
+          /></a>
+          <p>
+            ソースコードは上記画像リンク先にございます。
+          </p>
+          <p>使用した技術: JavaScript, React</p>
+        </div>
+        <hr />
+        <div class="worksThumbnail">
+          <h3>ポートフォリオサイト</h3>
+          <img src="img/portfolioThumbnail.png" alt="ポートフォリオサイト" />
+          <p>
+            <a href="https://github.com/Atsushikeys/myPortfolio"
+              >GitHubはこちら</a
+            >
+          </p>
+          <p>使用した技術: HTML5, CSS3</p>
+        </div>
       </section>
 
-      <!-- <section>
-        <h2 id="sns">SNS</h2>
-        <p>This is my SNS</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </section> -->
-
-      <section>
-        <h2 id="contact">contact</h2>
-        <p>Contact Me</p>
-        <p>
-          She sells seashells by the seashore. The shells she sells are surely
-          seashells. So if she sells shells on the seashore, I’m sure she sells
-          seashore shells. She sells seashells by the seashore. The shells she
-          sells are surely seashells. So if she sells shells on the seashore,
-          I’m sure she sells seashore shells.
-        </p>
+      <section id="contact">
+        <h2>contact</h2>
+        <p>連絡はこちらから</p>
+        <div id="contactForm">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSc3m6IPHG0Bagg6yBAhfSXwH0AWQsocGJfbuengeSpDHQ6qhA/viewform?embedded=true"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+          >
+            読み込んでいます...
+          </iframe>
+        </div>
       </section>
+
+      <footer>
+        <p class="copyright">
+          Copyright &#169; Atsushi Satoh All Rights Reserved.
+        </p>
+      </footer>
     </div>
-
-    <footer></footer>
   </body>
 </html>
